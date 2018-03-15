@@ -16,7 +16,7 @@ private:
 
 int main()
 {
-	Int one(7), two = 10, rez;
+	Int one(50), two = 3, rez;
 	one.show();
 	two.show();
 	rez.show();
