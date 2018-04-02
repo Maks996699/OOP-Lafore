@@ -56,7 +56,7 @@ void Angle::set()
 
 void Angle::show() const
 {
-	cout << degrees << "\xF8" << seconds << "' " << route;
+	cout << degrees << "\xF8" << seconds << "' " << route << endl;
 }
 
 int main()
