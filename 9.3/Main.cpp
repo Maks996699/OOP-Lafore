@@ -9,7 +9,7 @@ public:
 	Publication();
 	Publication(string, float);
 	~Publication();
-	void getdata();
+	void getdata() const;
 	void putdata();
 
 private:
@@ -29,7 +29,7 @@ Publication::~Publication()
 {
 }
 
-void Publication::getdata()
+void Publication::getdata() const
 {
 	cout << "Name: " << name << endl;
 	cout << "Price: " << price << endl;
@@ -48,7 +48,7 @@ class Sales
 public:
 	Sales();
 	~Sales();
-	void getdata();
+	void getdata() const;
 	void putdata();
 
 private:
@@ -64,7 +64,7 @@ Sales::~Sales()
 {
 }
 
-void Sales::getdata()
+void Sales::getdata() const
 {
 	for (int i = 0; i < month; i++)
 	{
